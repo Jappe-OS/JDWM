@@ -1,5 +1,5 @@
 //  jdwm_flutter, The Flutter UI library for the JDWM window manager.
-//  Copyright (C) 2025  The JappeOS team.
+//  Copyright (C) 2026  The JappeOS team.
 //
 //  This program is free software: you can redistribute it and/or modify
 //  it under the terms of the GNU Affero General Public License as
@@ -14,17 +14,7 @@
 //  You should have received a copy of the GNU Affero General Public License
 //  along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-library jdwm_flutter;
+library;
 
-import 'package:shadcn_flutter/shadcn_flutter.dart';
-
-/*
-  base
-*/
-part 'base/window_stack_controller.dart';
-
-/*
-  widgets
-*/
-part 'widgets/window_content.dart';
-part 'widgets/window_stack.dart';
+export 'src/window_manager.dart';
+export 'src/window_entry.dart';

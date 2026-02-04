@@ -10,10 +10,13 @@ dependencies:
   flutter:
     sdk: flutter
 
+  #shadcn_flutter:
+  #  git:
+  #    url: https://github.com/JappeOS/shadcn_flutter.git
+  #    ref: master
+
   shadcn_flutter:
-    git:
-      url: https://github.com/JappeOS/shadcn_flutter.git
-      ref: master
+    path: ../../shadcn_flutter
 
   prioritized_event:
     git:
@@ -22,6 +25,7 @@ dependencies:
 
   vector_math: ^2.1.4
   event: ^3.1.0
+  provider: ^6.1.5+1
 
 dev_dependencies:
   #flutter_test:
@@ -31,3 +35,6 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - assets/cursor/
