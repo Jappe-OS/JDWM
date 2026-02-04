@@ -340,9 +340,11 @@ packages:
   shadcn_flutter:
     dependency: "direct main"
     description:
-      path: "../../shadcn_flutter"
-      relative: true
-    source: path
+      path: "."
+      ref: master
+      resolved-ref: e9885f30c604601b7361d42f3fc60635f3975ee0
+      url: "https://github.com/JappeOS/shadcn_flutter.git"
+    source: git
     version: "0.0.48"
   skeletonizer:
     dependency: transitive
